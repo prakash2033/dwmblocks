@@ -15,6 +15,9 @@ So if you want my build out of the box, download those and put them in your
 `$PATH`. I do this to avoid redundancy in PARBS, both i3 and dwm use the same
 statusbar scripts.
 
+# Patches
+- statuscmd: This patch adds the ability to signal a status monitor program such as dwmblocks the location and button when clicking on the status bar.
+
 # Signaling changes
 
 Most statusbars constantly rerun every script every several seconds to update.
